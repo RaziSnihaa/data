@@ -1,0 +1,14 @@
+﻿Check;Value
+Volumes;{'Clients': 100000, 'Adresses': 100000, 'Vehicules': 145033, 'Contrats': 145033, 'Sinistres': 120000}
+ADR 1-1;True
+Vehicules/client 1..5;True
+Contrat 1-1 Vehicule;True
+Sinistre FK id_vcl;True
+Sinistre FK id_contrat;True
+Unique immatriculation;True
+Unique id_assure;True
+Unique id_contrat;True
+Unique id_sinistre;True
+ADR format 6 digits;False
+CPOST format 4 digits;False
+CPOST prefix matches governorate;True
